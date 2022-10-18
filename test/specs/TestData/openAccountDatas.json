@@ -1,0 +1,19 @@
+[
+    {
+        "accountHoldername":"thaju",
+        "gender":"Male",
+        "mobileNo":"9003947855",
+        "emailId":"thaj@gmail.com",
+        "LandlineNo":"854345678",
+        "dateOfBirth":"07/10/1997",
+        "panNo":"PAN12345",
+        "citizenshipNo":"CITI34567",
+        "homeAdd":"Tiruppur",
+        "officeAdd":"nagawara",
+        "state":"California",
+        "city":"San Diego",
+        "pincode":"560045",
+        "area":"hebbal",
+        "accountType":"Current"
+    }
+]

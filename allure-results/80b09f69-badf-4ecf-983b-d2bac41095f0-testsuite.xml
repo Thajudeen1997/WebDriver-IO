@@ -1,0 +1,191 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666088927503' stop='1666088964719'>
+    <name>apply for debit card and validate in active customer page</name>
+    <title>apply for debit card and validate in active customer page</title>
+    <test-cases>
+        <test-case start='1666088927536' status='passed' stop='1666088930022'>
+            <name>opening application</name>
+            <title>opening application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088930027' status='passed' stop='1666088931088'>
+            <name>launching open account page</name>
+            <title>launching open account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088931164' status='broken' stop='1666088939861'>
+            <name>Filling open Account details</name>
+            <title>Filling open Account details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='bb9409a8-8352-49af-9498-600c7a202779-attachment.mp4' type='video/mp4' size='190'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openApproveAndapplyfordebitcard.js:34:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666088939869' status='passed' stop='1666088942353'>
+            <name>login to manager module</name>
+            <title>login to manager module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088942355' status='broken' stop='1666088943142'>
+            <name>approve customer</name>
+            <title>approve customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='732a909b-6899-4141-9283-d015113d4f63-attachment.mp4' type='video/mp4' size='178'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'trim')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'trim')
+                    at Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openApproveAndapplyfordebitcard.js:53:73)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666088943148' status='passed' stop='1666088944430'>
+            <name>Manager Logging out</name>
+            <title>Manager Logging out</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088944431' status='broken' stop='1666088947797'>
+            <name>applying for debit card</name>
+            <title>applying for debit card</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5570a87d-7996-494f-89de-ad5a1a76ca9c-attachment.mp4' type='video/mp4' size='185'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openApproveAndapplyfordebitcard.js:72:42)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666088947801' status='passed' stop='1666088949726'>
+            <name>login to manager module</name>
+            <title>login to manager module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088949728' status='passed' stop='1666088963515'>
+            <name>validation in active customer page</name>
+            <title>validation in active customer page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666088963518' status='passed' stop='1666088964718'>
+            <name>logging out manager module</name>
+            <title>logging out manager module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
