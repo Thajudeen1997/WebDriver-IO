@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666331366849' stop='1666331408782'>
+    <name>Creating account and approving the account and validating in active customer page</name>
+    <title>Creating account and approving the account and validating in active customer page</title>
+    <test-cases>
+        <test-case start='1666331366851' status='passed' stop='1666331369238'>
+            <name>opening application</name>
+            <title>opening application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666331369239' status='passed' stop='1666331369454'>
+            <name>launching open account page</name>
+            <title>launching open account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666331369454' status='failed' stop='1666331372184'>
+            <name>Filling open Account details</name>
+            <title>Filling open Account details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='efc43e53-6901-4996-baba-86f929b7d2c9-attachment.png' type='image/png' size='653430'/>
+            </attachments>
+            <failure>
+                <message>Not equal: expected 'Application submitted successfully\n\…' to include 'fghfg'      
+                      actual expected
+                      
+                      'Application submitted successfully\n\nApplication number : 575041058\n\nPlease visit bank with application number for account approval\n\nHint: From staff login, approve application'undefined
+                      </message>
+                <stack-trace>AssertionError: Not equal: expected 'Application submitted successfully\n\…' to include 'fghfg'
+                    at Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openandApproveAccount.js:38:37)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666331372185' status='passed' stop='1666331372971'>
+            <name>login to manager module</name>
+            <title>login to manager module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666331372972' status='passed' stop='1666331374355'>
+            <name>approve customer</name>
+            <title>approve customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666331374356' status='passed' stop='1666331408780'>
+            <name>validation in active customer page</name>
+            <title>validation in active customer page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666331408781' status='pending' stop='1666331408781'>
+            <name>validation in view by accountNo page</name>
+            <title>validation in view by accountNo page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

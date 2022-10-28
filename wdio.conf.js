@@ -27,8 +27,8 @@ exports.config = {
         // './test/specs/spicejet.js',
         // './test/specs/example.e2e.js',
         // './test/specs/ApproveAndDeleteAccount.js',
-        // './test/specs/openandApproveAccount.js',
-        './test/specs/openApproveAndapplyfordebitcard.js',
+        './test/specs/openandApproveAccount.js',
+        // './test/specs/openApproveAndapplyfordebitcard.js',
         // './test/specs/creditCustomerAndValidateInActiveCustPage.js'
         
     ],

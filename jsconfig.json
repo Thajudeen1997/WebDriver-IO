@@ -11,5 +11,5 @@
         "**/*.json",
         "node_modules/@wdio/sync",
         "node_modules/@wdio/mocha-framework"
-, "test/specs/HardCoded/openandApproveAccount.js", "filter.js", "readDataFromExcel.js"    ]
+, "test/specs/HardCoded/openandApproveAccount.js", "filter.js", "readDataFromExcel.js", "example.e2e.js"    ]
 }

@@ -17,9 +17,11 @@
         "wdio-chromedriver-service": "^8.0.0"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "example": "npx wdio run ./wdio.conf.js --spec example.e2e.js"
     },
     "dependencies": {
+        "chai": "^4.3.6",
         "wdio-video-reporter": "^3.2.3",
         "xlsx": "^0.18.5"
     }

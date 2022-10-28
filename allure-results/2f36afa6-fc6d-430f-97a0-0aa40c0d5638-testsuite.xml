@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666348572198' stop='1666348609970'>
+    <name>Creating account and approving the account and validating in active customer page</name>
+    <title>Creating account and approving the account and validating in active customer page</title>
+    <test-cases>
+        <test-case start='1666348572199' status='passed' stop='1666348572515'>
+            <name>opening application</name>
+            <title>opening application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666348572516' status='passed' stop='1666348573034'>
+            <name>launching open account page</name>
+            <title>launching open account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666348573035' status='failed' stop='1666348575751'>
+            <name>Filling open Account details</name>
+            <title>Filling open Account details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='06292279-07e2-4741-8838-587573317342-attachment.png' type='image/png' size='345750'/>
+            </attachments>
+            <failure>
+                <message>Not equal: expected 'Application submitted successfully\n\…' to include 'Submitted successfully'      
+                      actual expected
+                      
+                      'Application submitted successfully\n\nApplication number : 262979272\n\nPlease visit bank with application number for account approval\n\nHint: From staff login, approve application'undefined
+                      </message>
+                <stack-trace>AssertionError: Not equal: expected 'Application submitted successfully\n\…' to include 'Submitted successfully'
+                    at Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openandApproveAccount.js:38:37)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666348575752' status='passed' stop='1666348576464'>
+            <name>login to manager module</name>
+            <title>login to manager module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666348576465' status='broken' stop='1666348577236'>
+            <name>approve customer</name>
+            <title>approve customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f459304a-d9bf-4ef7-a89e-3cbdec93bd89-attachment.png' type='image/png' size='60521'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (E:\Software testing\TestYantra\Java Script\WebDriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (E:\Software testing\TestYantra\Java Script\WebDriverIO\test\specs\openandApproveAccount.js:57:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666348577236' status='passed' stop='1666348609968'>
+            <name>validation in active customer page</name>
+            <title>validation in active customer page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666348609969' status='pending' stop='1666348609969'>
+            <name>validation in view by accountNo page</name>
+            <title>validation in view by accountNo page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
